@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Ticket | Samitha Salgado</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body class="ticket-page-body">
+
+    <div class="star-bg"></div>
+
+    <div class="ticket-container reveal active">
+        <div class="ticket-header">
+            <i class="fas fa-file-pdf"></i>
+            <h2>Ticket Generated</h2>
+            <p style="color:#d4af37; font-size:0.9rem;">Your PDF has been downloaded automatically.</p>
+        </div>
+        
+        <div class="ticket-body">
+            <p style="color: #ccc; margin-bottom: 25px; line-height: 1.6;">
+                <strong>Final Step:</strong><br>
+                Please send the downloaded <strong>PDF Ticket</strong> AND your <strong>Bank Slip Photo</strong> to my WhatsApp number below.
+            </p>
+            
+            <a href="#" id="whatsappBtn" class="btn-glow" style="text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 10px;">
+                <i class="fab fa-whatsapp" style="font-size: 1.4rem;"></i> Send to WhatsApp
+            </a>
+            
+            <div style="margin-top: 20px;">
+                <a href="index.html" style="color: #666; text-decoration: none; font-size: 0.85rem;">&larr; Back to Home</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="client.js"></script>
+</body>
+</html>
